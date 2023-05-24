@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/styleform.css">
+	<title>Formulário</title>
+</head>
+<body>
+	<div class="container">
+
+	<div class="form">
+			<form action="#">
+				<div class="form-header">
+					<div class="title">
+						<h1>Formulário sobre filmes</h1>
+						<br>
+					</div>
+				</div>
+	
+
+				<div class="input-group">
+					<div class="input-box">
+					<h3>Dados Pessoais</h2>
+						<label for="email">Nome:</label>
+						<input id="nome" type="text" name="nome" placeholder="Digite seu nome" maxlength="50">
+						<br><br>
+					</div>
+					<div class="gender-inputs">
+						<div class="gender-title">
+							<h3>Gênero</h6>
+						</div>
+
+						<div class="gender-group">
+							<div class="gender-input">
+								<input type="radio" id="female" name="gênero" required>
+								<label for="female">Feminino</label>
+							</div>
+						</div>
+
+						<div class="gender-group">
+							<div class="gender-input">
+								<input type="radio" id="male" name="gênero" required>
+								<label for="male">Masculino</label>
+								<br><br>
+							</div>
+						</div>
+					</div>
+					<div class="input-box">
+						<label for="idade">Idade:</label>
+						<input id="age" type="text" name="idade" placeholder="Digite sua idade" maxlength="2">
+						<br><br>
+					</div>
+					<div class="select">
+						Escolha seu gênero de filme favorito: <select name="gênero">
+						<option value="comed">Comédia</option>
+						<option value="roman">Romance</option>
+						<option value="terr">Terror</option>
+						<option value="fic">Ficção</option>
+						<option value="mus">Musical</option>
+						<option value="aven">Aventura</option>
+						<option value="aca">Ação</option>
+						<option value="dra">Drama</option>
+						<option value="fan">Fantasia</option>
+						<option value="susp">Suspense</option>
+
+		</select> <br><br>
+					</div>
+
+				<div class="container-button">
+					<button><a href="#">ENVIAR</a></button>
+				</div>
+				
+			</form>
+
+		</div>
+		</div>
+</body>
+</html>
